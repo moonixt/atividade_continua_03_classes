@@ -70,9 +70,9 @@ class Casa:
 
 
 class Escola:
-    def __init__(self, nome: str, casas: list = []):
+    def __init__(self, nome: str):
         self.nome = nome
-        self.casas = casas
+        self.casas = []
 
     def incluir_casa(self, casa):
         self.casas.append(casa)
